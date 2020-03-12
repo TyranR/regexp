@@ -15,7 +15,7 @@ def main():
   """
   new_contact_list = []
   for contact in contacts_list:
-    #Задача 1 ----------
+    # Задача 1 ----------
     lastname = re.split(" ",contact[0])
     firstname = re.split(" ",contact[1])
     surname = re.split(" ",contact[2])
